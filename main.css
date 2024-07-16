@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div#geniusLinks { /* Полезные ссылки */
+
+}
+
+td#scriptLinks { /* Ссылки на скрипты */
+
+}
+
+td#appLinks { /* Ссылки на расширения */
+
+}
+
+div#guideLinks { /* Блок якорей */
+margin: 5px;
+padding: 5px;
+}
+
+td#tampermonkeyYakorya { /* Якоря Tampermonkey */
+
+}
+
+td#violentmonkeyYakorya { /* Якоря Violentmonkey */
+
+}
+
+td#stylusYakorya { /* Якоря Stylus */
+
+}
+
+a.headerYakorya { /* Перекраска ссылок якорей на основные блоки гайдов по типу обычного текста */
+    color: inherit;
+  text-decoration: inherit;
+}
+
+
+div#guideBlock { /* Блок с гайдами */
+
+}
+
+div#tamperGuide { /* Гайд на Tampermonkey */
+
+}
+
+span#tamperPC { /* ПК */
+
+}
+
+span#tamperAndr { /* Андроид */
+
+}
+
+span#tamperIOS { /* iOS */
+
+}
+
+div#violentGuide { /* Гайд на Violentmonkey */
+
+}
+
+span#violenPC { /* ПК */
+
+}
+
+span#violenAndr { /* Андроид */
+
+}
+
+span#violenIOS { /* iOS */
+
+}
+
+div#stylusGuide { /* Гайд на stylus */
+
+}
+
+span#stylusPC { /* ПК */
+
+}
+
+span#stylusAndr { /* Андроид */
+
+}
+
+span#stylusIOS { /* iOS */
+
+}
