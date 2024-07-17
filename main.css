@@ -1,91 +1,131 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-div#geniusLinks { /* Полезные ссылки */
-
-}
-
-td#scriptLinks { /* Ссылки на скрипты */
-
-}
-
-td#appLinks { /* Ссылки на расширения */
-
-}
-
-div#guideLinks { /* Блок якорей */
-margin: 5px;
-padding: 5px;
-}
-
-td#tampermonkeyYakorya { /* Якоря Tampermonkey */
-
-}
-
-td#violentmonkeyYakorya { /* Якоря Violentmonkey */
-
-}
-
-td#stylusYakorya { /* Якоря Stylus */
-
-}
-
-a.headerYakorya { /* Перекраска ссылок якорей на основные блоки гайдов по типу обычного текста */
-    color: inherit;
-  text-decoration: inherit;
-}
+:root {
+--cwsc-scrl-1: #3F2D29;
+--cwsc-scrl-2: #AD7B3C;
+--cwsc-inpt-1: #342521;
+--cwsc-inpt-2: #1d1514;
+--cwsc-bttn-1: #342521;
+--cwsc-bckg-1: #3F2D29;
+--cwsc-bckg-2: #75524C;
+--cwsc-bckg-3: #A47C74;
+--cwsc-bckg-4: #D1BCB7;
+--cwsc-bckg-5: #CAAC88;
+--cwsc-bckg-6: #DBAEFF;
+--cwsc-brdr-1: #3F2D29;
+--cwsc-brdr-2: #AD7B3C;
+--cwsc-brdr-3: #1b1311;
+--cwsc-brdr-4: #a07e7740;
+--cwsc-txt-1: #180E0D;
+--cwsc-txt-2: #CAAC88;
+--cwsc-txt-3: #AD7B3C;
+--cwsc-txt-4: #c9bdb0;
+--cwsc-txt-5: #372a1e;
+--cwsc-fltr-vk: hue-rotate(152deg) contrast(35%) brightness(40%);
+--cwsc-fltr-tg: hue-rotate(167deg) contrast(40%) brightness(38%);
+--cwsc-fltr-bs: hue-rotate(350deg) contrast(37%) brightness(37%);
+--cwdf-bckg-1: #333;
+--cwdf-brdr-1: #000;
+--cwdf-brdr-2: #ff0;
+--cwdf-txt-1: #fff;
+--cwdf-txt-2: #000; }
 
 
-div#guideBlock { /* Блок с гайдами */
+body {
+font-family: Montserrat;
+background-color: var(--cwsc-inpt-2);
+color: var(--cwsc-txt-2); }
 
-}
+a {
+transition: 0.5s;
+text-decoration: underline dashed 1px; 
+color: var(--cwsc-txt-5); }
 
-div#tamperGuide { /* Гайд на Tampermonkey */
+a:hover {
+transition: 0.5s;
+text-decoration: underline dashed 1px;
+filter: brightness(500%); } 
 
-}
+div#universeTable {
+background-color: var(--cwsc-bckg-1);
+width: 60%;
+margin: 20px auto;
+padding: 10px;
+border-radius: 10px; }
 
-span#tamperPC { /* ПК */
+div#header, div#footer {
+margin: 15px 0px;
+background-color: var(--cwsc-bckg-2);
+border-radius: 10px; }
 
-}
+div#header {
+display: flex !important;
+justify-content: center;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 22px;
+letter-spacing: 15px;
+margin: 10px 0px -5px 15px; 
+background-color: var(--cwsc-bckg-1);
+border-radius: 0px; }
 
-span#tamperAndr { /* Андроид */
+div#siteTable {
+background-color: var(--cwsc-bckg-2);
+border-radius: 0px 0px 10px 10px;
+margin: 15px 0px;
+padding-top: 10px;
+border: 4px solid var(--cwsc-brdr-2); 
+border-bottom: none;
+border-left: none;
+border-right: none; }
 
-}
+table#linksTable>tbody>tr>td {
+table-layout: fixed;
+width: 50% !important; }
 
-span#tamperIOS { /* iOS */
+div#linksTable {
+display: grid; }
 
-}
+div#geniusLinks, div#guideLinks {
+background-color: var(--cwsc-bckg-3);
+color: var(--cwsc-txt-1);
+margin: 10px;
+padding: 0px;
+height: 140px !important;
+border-radius: 10px; }
 
-div#violentGuide { /* Гайд на Violentmonkey */
+div#geniusLinks>p, div#guideLinks>p {
+font-weight: 500;
+background-color: var(--cwsc-bckg-4);
+color: var(--cwsc-txt-1);
+margin-bottom: 10px;
+padding: 10px;
+border-radius: 10px 10px 0px 0px;
+border: 2px dashed var(--cwsc-brdr-1); 
+border-top: none;
+border-left: none;
+border-right: none; }
 
-}
+div#geniusLinks>table {
+display: grid; 
+justify-content: center; }
 
-span#violenPC { /* ПК */
+div#geniusLinks>table>tbody>tr>td {
+padding: 0px 20px; }
 
-}
+div#geniusLinks>table>tbody>tr>td>a {
+font-size: 15px; }
 
-span#violenAndr { /* Андроид */
+div#guideLinks>table {
+display: grid; 
+justify-content: center; }
 
-}
+div#guideLinks>table>tbody>tr>td {
+padding: 0px 5px; }
 
-span#violenIOS { /* iOS */
+div#guideLinks>table>tbody>tr>td>a {
+font-size: 15px; }
 
-}
-
-div#stylusGuide { /* Гайд на stylus */
-
-}
-
-span#stylusPC { /* ПК */
-
-}
-
-span#stylusAndr { /* Андроид */
-
-}
-
-span#stylusIOS { /* iOS */
-
-}
+p.headerYakorya {
+position: relative;
+font-weight: 500;
+color: var(--cwsc-txt-1);
+bottom: 5px; }
