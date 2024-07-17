@@ -46,7 +46,7 @@ filter: brightness(500%); }
 
 div#universeTable {
 background-color: var(--cwsc-bckg-1);
-width: 1000px;
+width: 940px;
 margin: 20px auto;
 padding: 10px;
 border-radius: 10px; }
@@ -89,7 +89,7 @@ background-color: var(--cwsc-bckg-3);
 color: var(--cwsc-txt-1);
 margin: 10px;
 padding: 0px;
-width: 475px;
+width: 445px;
 height: 140px !important;
 border-radius: 10px; }
 
