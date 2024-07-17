@@ -128,4 +128,5 @@ p.headerYakorya {
 position: relative;
 font-weight: 500;
 color: var(--cwsc-txt-1);
+margin: 0px;
 bottom: 5px; }
