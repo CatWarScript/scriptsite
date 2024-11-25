@@ -1,7 +1,7 @@
 #body-image {
 position: absolute;
 z-index: -10;
-width: 30em;
+width: 90vh;
 height: auto;
 object-fit: cover; }
 
@@ -19,12 +19,12 @@ padding: 0;
 width: 100%;
 overflow-x: hidden;
 background-color: #2F252D;
-color: #50453a; }
+color: #50453a !important; }
 
 h1 {
-text-align: center;
+text-align: center !important;
 font-size: 28px;
-padding: 0; }
+padding: 0 !important; }
 
 #loading-container {
 text-align: center;
@@ -36,8 +36,8 @@ margin-top: 30px; }
 width: 250px;
 height: 5px;
 border: 2px solid #2F252D;
-border-radius: 1px; 
 background-color: #50453a;
+border-radius: 1px !important; 
 position: relative;
 margin: 10px auto; }
 
