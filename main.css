@@ -3,9 +3,11 @@
     
 h1 { font-size: 23px !important; }
 
+#loading-container { margin-top: 18px !important; }
+
 #loading-text { font-size: 10px !important; }
 
-#loading-bar { width: 150px !important; }
+#loading-bar { width: 165px !important; }
 }
 
 #body-image {
@@ -33,14 +35,14 @@ color: #50453a; }
 
 h1 {
 text-align: center;
-font-size: 28px;
+font-size: 35px;
 padding: 0; }
 
 #loading-container {
 text-align: center;
 margin-top: 30px; }
 
-#loading-text { font-size: 13px; }
+#loading-text { font-size: 15px; }
 
 #loading-bar {
 width: 250px;
