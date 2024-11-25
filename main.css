@@ -1,1 +1,50 @@
+#body-image {
+position: absolute;
+z-index: -10;
+width: 100%;
+height: auto;
+object-fit: cover; }
 
+html {
+font-family: "Press Start 2P", serif;
+font-weight: 100;
+font-style: normal; }
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding: 0;
+width: 100%;
+overflow-x: hidden;
+background-color: #2F252D;
+color: #50453a !important; }
+
+h1 {
+text-align: center !important;
+font-size: 28px;
+padding: 0 !important; }
+
+.loading-container {
+text-align: center;
+margin-top: 30px; }
+
+.loading-text { font-size: 13px; }
+
+.loading-bar {
+width: 250px;
+height: 5px;
+border: 2px solid #2F252D;
+background-color: #50453a;
+position: relative;
+margin: 10px auto; }
+
+.loading-progress {
+width: 5%;
+height: 100%;
+background-color: #ffab2e;
+position: absolute;
+top: 0;
+left: 0;
+transition: width 0.3s; }
