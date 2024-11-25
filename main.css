@@ -26,13 +26,13 @@ text-align: center !important;
 font-size: 28px;
 padding: 0 !important; }
 
-.loading-container {
+#loading-container {
 text-align: center;
 margin-top: 30px; }
 
-.loading-text { font-size: 13px; }
+#loading-text { font-size: 13px; }
 
-.loading-bar {
+#loading-bar {
 width: 250px;
 height: 5px;
 border: 2px solid #2F252D;
@@ -40,7 +40,7 @@ background-color: #50453a;
 position: relative;
 margin: 10px auto; }
 
-.loading-progress {
+#loading-progress {
 width: 5%;
 height: 100%;
 background-color: #ffab2e;
