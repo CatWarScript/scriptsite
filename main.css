@@ -19,12 +19,12 @@ padding: 0;
 width: 100%;
 overflow-x: hidden;
 background-color: #2F252D;
-color: #50453a !important; }
+color: #50453a; }
 
 h1 {
-text-align: center !important;
+text-align: center;
 font-size: 28px;
-padding: 0 !important; }
+padding: 0; }
 
 #loading-container {
 text-align: center;
@@ -36,6 +36,7 @@ margin-top: 30px; }
 width: 250px;
 height: 5px;
 border: 2px solid #2F252D;
+border-radius: 1px; 
 background-color: #50453a;
 position: relative;
 margin: 10px auto; }
