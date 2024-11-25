@@ -1,3 +1,13 @@
+@media (max-width: 768px) {
+#body-image { width: 100% !important; }
+    
+h1 { font-size: 23px !important; }
+
+#loading-text { font-size: 10px !important; }
+
+#loading-bar { width: 150px !important; }
+}
+
 #body-image {
 position: absolute;
 z-index: -10;
